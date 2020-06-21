@@ -17,24 +17,18 @@
 		C23FA84D24995A7C0091A79F /* DetailPieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23FA84C24995A7C0091A79F /* DetailPieViewController.swift */; };
 		C23FA84F249B09BA0091A79F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23FA84E249B09BA0091A79F /* WelcomeViewController.swift */; };
 		C23FA851249B0DE80091A79F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23FA850249B0DE80091A79F /* Constants.swift */; };
-		C2D4F9EB249C3A320061F75F /* MortgageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9EA249C3A320061F75F /* MortgageMainViewController.swift */; };
 		C2D4F9EF249C3A9A0061F75F /* MortgageCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9EE249C3A9A0061F75F /* MortgageCalculatorViewController.swift */; };
 		C2D4F9F1249C3AC00061F75F /* MortgageResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9F0249C3AC00061F75F /* MortgageResultsViewController.swift */; };
-		C2D4F9F3249C3B080061F75F /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9F2249C3B080061F75F /* BuyViewController.swift */; };
-		C2D4F9F5249C3B2F0061F75F /* BuyResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9F4249C3B2F0061F75F /* BuyResultsViewController.swift */; };
-		C2D4F9F7249C3B570061F75F /* BuyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9F6249C3B570061F75F /* BuyFormViewController.swift */; };
-		C2D4F9F9249C3BB50061F75F /* BuyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9F8249C3BB50061F75F /* BuyTableViewController.swift */; };
-		C2D4F9FB249C3BF70061F75F /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9FA249C3BF70061F75F /* TipsViewController.swift */; };
-		C2D4F9FD249C3C1F0061F75F /* CostOfLivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9FC249C3C1F0061F75F /* CostOfLivingViewController.swift */; };
-		C2D4F9FF249C3C450061F75F /* CostOfLivingResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4F9FE249C3C450061F75F /* CostOfLivingResultsViewController.swift */; };
 		C2D4FA01249C3CB40061F75F /* MortgageQuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA00249C3CB40061F75F /* MortgageQuoteTableViewController.swift */; };
 		C2D4FA03249C3D040061F75F /* MortgageARMCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA02249C3D040061F75F /* MortgageARMCalculatorViewController.swift */; };
 		C2D4FA08249C3DF90061F75F /* MortgageSavedQuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA07249C3DF90061F75F /* MortgageSavedQuoteTableViewCell.swift */; };
 		C2D4FA0C249C3E4E0061F75F /* MortgageARMResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA0B249C3E4E0061F75F /* MortgageARMResultsViewController.swift */; };
 		C2D4FA13249C40040061F75F /* MortgageLoanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA12249C40040061F75F /* MortgageLoanController.swift */; };
-		C2D4FA15249C40390061F75F /* PotentialHomePurchaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA14249C40390061F75F /* PotentialHomePurchaseController.swift */; };
-		C2D4FA17249C40510061F75F /* TipsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA16249C40510061F75F /* TipsLoader.swift */; };
-		C2D4FA19249C40800061F75F /* CostOfLivingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA18249C40800061F75F /* CostOfLivingController.swift */; };
+		C2D4FA21249C86BA0061F75F /* MortgageLoan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA20249C86BA0061F75F /* MortgageLoan.swift */; };
+		C2D4FA24249C86E50061F75F /* MortgageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA23249C86E50061F75F /* MortgageExtensions.swift */; };
+		C2D4FA26249C86FF0061F75F /* PotentialHomePurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA25249C86FF0061F75F /* PotentialHomePurchase.swift */; };
+		C2D4FA28249C870F0061F75F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA27249C870F0061F75F /* State.swift */; };
+		C2D4FA2C249EABC50061F75F /* MortgagePage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FA2B249EABC50061F75F /* MortgagePage1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,24 +46,18 @@
 		C23FA84C24995A7C0091A79F /* DetailPieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPieViewController.swift; sourceTree = "<group>"; };
 		C23FA84E249B09BA0091A79F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C23FA850249B0DE80091A79F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C2D4F9EA249C3A320061F75F /* MortgageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageMainViewController.swift; sourceTree = "<group>"; };
 		C2D4F9EE249C3A9A0061F75F /* MortgageCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorViewController.swift; sourceTree = "<group>"; };
 		C2D4F9F0249C3AC00061F75F /* MortgageResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageResultsViewController.swift; sourceTree = "<group>"; };
-		C2D4F9F2249C3B080061F75F /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
-		C2D4F9F4249C3B2F0061F75F /* BuyResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyResultsViewController.swift; sourceTree = "<group>"; };
-		C2D4F9F6249C3B570061F75F /* BuyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyFormViewController.swift; sourceTree = "<group>"; };
-		C2D4F9F8249C3BB50061F75F /* BuyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTableViewController.swift; sourceTree = "<group>"; };
-		C2D4F9FA249C3BF70061F75F /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
-		C2D4F9FC249C3C1F0061F75F /* CostOfLivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostOfLivingViewController.swift; sourceTree = "<group>"; };
-		C2D4F9FE249C3C450061F75F /* CostOfLivingResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostOfLivingResultsViewController.swift; sourceTree = "<group>"; };
 		C2D4FA00249C3CB40061F75F /* MortgageQuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageQuoteTableViewController.swift; sourceTree = "<group>"; };
 		C2D4FA02249C3D040061F75F /* MortgageARMCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageARMCalculatorViewController.swift; sourceTree = "<group>"; };
 		C2D4FA07249C3DF90061F75F /* MortgageSavedQuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageSavedQuoteTableViewCell.swift; sourceTree = "<group>"; };
 		C2D4FA0B249C3E4E0061F75F /* MortgageARMResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageARMResultsViewController.swift; sourceTree = "<group>"; };
 		C2D4FA12249C40040061F75F /* MortgageLoanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageLoanController.swift; sourceTree = "<group>"; };
-		C2D4FA14249C40390061F75F /* PotentialHomePurchaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotentialHomePurchaseController.swift; sourceTree = "<group>"; };
-		C2D4FA16249C40510061F75F /* TipsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsLoader.swift; sourceTree = "<group>"; };
-		C2D4FA18249C40800061F75F /* CostOfLivingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostOfLivingController.swift; sourceTree = "<group>"; };
+		C2D4FA20249C86BA0061F75F /* MortgageLoan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageLoan.swift; sourceTree = "<group>"; };
+		C2D4FA23249C86E50061F75F /* MortgageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageExtensions.swift; sourceTree = "<group>"; };
+		C2D4FA25249C86FF0061F75F /* PotentialHomePurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotentialHomePurchase.swift; sourceTree = "<group>"; };
+		C2D4FA27249C870F0061F75F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		C2D4FA2B249EABC50061F75F /* MortgagePage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgagePage1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +118,7 @@
 				C2D4F9E9249C39B10061F75F /* View Controllers */,
 				C2D4FA04249C3D9C0061F75F /* Cells */,
 				C23FA850249B0DE80091A79F /* Constants.swift */,
+				C2D4FA22249C86C30061F75F /* Models */,
 				C23FA84C24995A7C0091A79F /* DetailPieViewController.swift */,
 				C2D4FA11249C3FD20061F75F /* Controllers */,
 				C23FA83F249954580091A79F /* Assets.xcassets */,
@@ -142,16 +131,9 @@
 		C2D4F9E9249C39B10061F75F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C2D4F9EA249C3A320061F75F /* MortgageMainViewController.swift */,
+				C2D4FA2B249EABC50061F75F /* MortgagePage1ViewController.swift */,
 				C2D4F9EE249C3A9A0061F75F /* MortgageCalculatorViewController.swift */,
 				C2D4F9F0249C3AC00061F75F /* MortgageResultsViewController.swift */,
-				C2D4F9F2249C3B080061F75F /* BuyViewController.swift */,
-				C2D4F9F4249C3B2F0061F75F /* BuyResultsViewController.swift */,
-				C2D4F9F6249C3B570061F75F /* BuyFormViewController.swift */,
-				C2D4F9F8249C3BB50061F75F /* BuyTableViewController.swift */,
-				C2D4F9FA249C3BF70061F75F /* TipsViewController.swift */,
-				C2D4F9FC249C3C1F0061F75F /* CostOfLivingViewController.swift */,
-				C2D4F9FE249C3C450061F75F /* CostOfLivingResultsViewController.swift */,
 				C2D4FA00249C3CB40061F75F /* MortgageQuoteTableViewController.swift */,
 				C2D4FA02249C3D040061F75F /* MortgageARMCalculatorViewController.swift */,
 				C2D4FA0B249C3E4E0061F75F /* MortgageARMResultsViewController.swift */,
@@ -171,11 +153,19 @@
 			isa = PBXGroup;
 			children = (
 				C2D4FA12249C40040061F75F /* MortgageLoanController.swift */,
-				C2D4FA14249C40390061F75F /* PotentialHomePurchaseController.swift */,
-				C2D4FA16249C40510061F75F /* TipsLoader.swift */,
-				C2D4FA18249C40800061F75F /* CostOfLivingController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2D4FA22249C86C30061F75F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4FA20249C86BA0061F75F /* MortgageLoan.swift */,
+				C2D4FA23249C86E50061F75F /* MortgageExtensions.swift */,
+				C2D4FA25249C86FF0061F75F /* PotentialHomePurchase.swift */,
+				C2D4FA27249C870F0061F75F /* State.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,27 +284,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D4F9F1249C3AC00061F75F /* MortgageResultsViewController.swift in Sources */,
-				C2D4F9F3249C3B080061F75F /* BuyViewController.swift in Sources */,
-				C2D4F9FB249C3BF70061F75F /* TipsViewController.swift in Sources */,
+				C2D4FA2C249EABC50061F75F /* MortgagePage1ViewController.swift in Sources */,
+				C2D4FA21249C86BA0061F75F /* MortgageLoan.swift in Sources */,
 				C2D4F9EF249C3A9A0061F75F /* MortgageCalculatorViewController.swift in Sources */,
-				C2D4FA17249C40510061F75F /* TipsLoader.swift in Sources */,
 				C23FA83B249954570091A79F /* ViewController.swift in Sources */,
+				C2D4FA24249C86E50061F75F /* MortgageExtensions.swift in Sources */,
 				C23FA84F249B09BA0091A79F /* WelcomeViewController.swift in Sources */,
-				C2D4F9F7249C3B570061F75F /* BuyFormViewController.swift in Sources */,
 				C2D4FA13249C40040061F75F /* MortgageLoanController.swift in Sources */,
 				C23FA837249954570091A79F /* AppDelegate.swift in Sources */,
 				C2D4FA0C249C3E4E0061F75F /* MortgageARMResultsViewController.swift in Sources */,
 				C2D4FA01249C3CB40061F75F /* MortgageQuoteTableViewController.swift in Sources */,
-				C2D4F9F5249C3B2F0061F75F /* BuyResultsViewController.swift in Sources */,
+				C2D4FA26249C86FF0061F75F /* PotentialHomePurchase.swift in Sources */,
 				C2D4FA08249C3DF90061F75F /* MortgageSavedQuoteTableViewCell.swift in Sources */,
-				C2D4F9EB249C3A320061F75F /* MortgageMainViewController.swift in Sources */,
 				C2D4FA03249C3D040061F75F /* MortgageARMCalculatorViewController.swift in Sources */,
-				C2D4F9FF249C3C450061F75F /* CostOfLivingResultsViewController.swift in Sources */,
-				C2D4FA15249C40390061F75F /* PotentialHomePurchaseController.swift in Sources */,
-				C2D4FA19249C40800061F75F /* CostOfLivingController.swift in Sources */,
-				C2D4F9FD249C3C1F0061F75F /* CostOfLivingViewController.swift in Sources */,
+				C2D4FA28249C870F0061F75F /* State.swift in Sources */,
 				C23FA84D24995A7C0091A79F /* DetailPieViewController.swift in Sources */,
-				C2D4F9F9249C3BB50061F75F /* BuyTableViewController.swift in Sources */,
 				C23FA839249954570091A79F /* SceneDelegate.swift in Sources */,
 				C23FA851249B0DE80091A79F /* Constants.swift in Sources */,
 			);
